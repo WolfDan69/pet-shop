@@ -1,0 +1,20 @@
+# Зависимости и результат сборки frontend
+node_modules/
+dist/
+
+# Локальные настройки и секреты
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Настройки редакторов
+.idea/
+.vscode/
+
+# Логи
+*.log
