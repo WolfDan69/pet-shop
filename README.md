@@ -49,7 +49,27 @@ Backend, регистрация пользователей и реальные �
 
 ## Запуск frontend
 
-???
+Необходим установленный Node.js с npm.
+
+Из корневой папки проекта:
+
+```powershell
+cd frontend
+npm.cmd install
+npm.cmd run dev
+```
+
+Откройте адрес, указанный в терминале.
+
+Проверка сборки и кода:
+
+```powershell
+npm.cmd run build
+npm.cmd run lint
+```
+
+В Windows PowerShell используется `npm.cmd`.
+В других оболочках можно использовать `npm`.
 
 ## Скриншоты
 
